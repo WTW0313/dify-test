@@ -1,0 +1,17 @@
+identity:
+  author: WTW0313
+  name: dify-test
+  label:
+    en_US: dify-test
+    zh_Hans: dify-test
+    pt_BR: dify-test
+  description:
+    en_US: test......
+    zh_Hans: test......
+    pt_BR: test......
+  icon: icon.svg
+tools:
+  - tools/dify-test.yaml
+extra:
+  python:
+    source: provider/dify-test.py
