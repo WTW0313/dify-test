@@ -1,3 +1,5 @@
  [ERROR]failed to create plugin decoder , plugin path: ./dify-test, error: stat ./dify-test: no such file or directory
  [INFO]plugin packaged successfully, output path: ..difypkg
  [ERROR]failed to create plugin decoder , plugin path: dify-test/, error: stat dify-test/: no such file or directory
+ [ERROR]failed to create plugin decoder , plugin path: ./dify-test, error: stat ./dify-test: no such file or directory
+ [INFO]plugin packaged successfully, output path: ..difypkg
