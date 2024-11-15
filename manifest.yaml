@@ -2,8 +2,10 @@ version: 0.0.1
 type: plugin
 description:
   en_US: test......
+  zh_Hans: test......
 label:
   en_US: dify-test
+  zh_Hans: dify-test
 author: wtw0313
 name: dify-test
 icon: icon.svg
@@ -15,20 +17,17 @@ resource:
       enabled: true
     model:
       enabled: true
-      llm: false
-      text_embedding: false
-      rerank: false
-      tts: false
-      speech2text: false
-      moderation: false
+      llm: true
+    endpoint:
+      enabled: true
     app:
       enabled: true
     storage:
       enabled: true
-      size: 1234
+      size: 1048576
 plugins:
   endpoints:
-    - group/dify-test.yaml
+    - "group/dify-test.yaml"
 meta:
   version: 0.0.1
   arch:

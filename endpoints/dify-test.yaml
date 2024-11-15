@@ -1,4 +1,4 @@
-path: "/uwu/dify-test/uwu"
+path: "/dify-test"
 method: "GET"
 extra:
   python:
