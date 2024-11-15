@@ -1,8 +1,8 @@
-version: 0.0.1
+version: 0.0.2
 type: plugin
 description:
-  en_US: test......
-  zh_Hans: test......
+  en_US: flying cat
+  zh_Hans: flying cat
 label:
   en_US: dify-test
   zh_Hans: dify-test
@@ -29,7 +29,7 @@ plugins:
   endpoints:
     - "group/dify-test.yaml"
 meta:
-  version: 0.0.1
+  version: 0.0.2
   arch:
     - amd64
     - arm64
